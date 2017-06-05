@@ -1,0 +1,7 @@
+<div>
+  <ol>
+    {{#each @websites key="@index" as |site|}}
+      <li><web-story @website={{site}} /></li>
+    {{/each}}
+  </ol>
+</div>
